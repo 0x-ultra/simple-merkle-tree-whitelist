@@ -1,0 +1,23 @@
+{
+  "name": "simple-merkle-tree-whitelist",
+  "version": "1.0.0",
+  "description": "Quick utility for generating a json file containing all proofs for a tree given a list of wallets to add to the merkle tree.   Can be used for smart contract whitelisting purposes in applications where no `value` parameter is needed besides a `msg.sender`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x-ultra/simple-merkle-tree-whitelist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x-ultra/simple-merkle-tree-whitelist/issues"
+  },
+  "homepage": "https://github.com/0x-ultra/simple-merkle-tree-whitelist#readme",
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.2"
+  }
+}

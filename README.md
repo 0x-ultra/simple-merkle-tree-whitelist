@@ -1,8 +1,22 @@
 # Simple Merkle Tree Whitelist
+
 Quick utility for generating a json file containing all proofs for a tree given a list of wallets to add to the merkle tree.  
 Can be used for smart contract whitelisting purposes in applications where no `value` parameter is needed besides a `msg.sender`
 
+## Usage
+
+Insert your wallet addresses in the `whitelist.json` file following the example format.
+
+```bash
+npm install
+node main.js
+```
+
+This will generate a `proofs.json` file containing all proofs for the tree.
+The merkle root is also printed in the console.
+
 ## Verifier
+
 ```solidity
 pragma solidity ^0.8.0;
 
